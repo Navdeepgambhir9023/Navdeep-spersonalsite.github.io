@@ -1,0 +1,233 @@
+body {
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #C0D8C0;
+}
+
+h1 {
+  color: black;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+.top-container{
+  background-color: #EFDAD7;
+}
+
+.Display_picture{
+width: 20%;
+position: relative;
+}
+
+
+.Hello:before {
+  content: '';
+  animation: animate infinite 20s;
+}
+
+@keyframes animate {
+  0% {
+    content: "Hey!"
+  }
+
+  50% {
+    content: "Hey!"
+  }
+
+  75% {
+    content: "Bonjour!"
+  }
+
+  100% {
+    content: "Hola!"
+  }
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Caveat', cursive;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.welcome:before {
+  content: '';
+  animation: welcome infinite 20s;
+  color: black;
+}
+
+@keyframes welcome {
+  0% {
+    content: "Welcome To My Personal Site"
+  }
+
+  50% {
+    content: "Welcome To My Personal Site"
+  }
+
+  75% {
+    content: "Bienvenue sur mon site web"
+  }
+
+  100% {
+    content: "Bienvenido a mi sitio web"
+  }
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+  color: black;
+}
+
+.Intro_anchor {
+  color: White;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+
+.Intro_anchor:hover {
+  color: #66BFBF;
+}
+
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.skills {
+  background-color: #FFF47D;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  background-color: black;
+}
+
+.skill-row2 {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+  background-color: black;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+  color: black;
+}
+
+.Kali_linux_Image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Music_Production {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.Social_Marketing {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Coming_soon2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 40px;
+  margin-top: 20px;
+  align-content: center;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.footer_link {
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 50px;
+  font-size: 20px;
+  color: black;
+}
+
+.instagram_logo:hover {
+  width: 50px;
+  background: white;
+}
+
+.Mail_Logo:hover {
+  width: 50px;
+  background: white;
+}
+
+.linkedin_logo:hover {
+  width: 50px;
+  background: white;
+}
+
+.twitter_logo:hover {
+  width: 50px;
+  background: white;
+}
+
+.call_logo {
+  width: 50px;
+  background: white;
+}
